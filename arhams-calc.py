@@ -34,20 +34,20 @@ while True:
         print("Exiting the calculator. Goodbye!")
         break
     if task == "1":
-        add1 = int(input("Enter a number: "))
-        add2 = int(input("Enter another number: "))
+        add1 = float(input("Enter a number: "))
+        add2 = float(input("Enter another number: "))
         print("The addition of the two numbers are:", add1 + add2)
     elif task == "2":
-        sub1 = int(input("Enter a number: "))
-        sub2 = int(input("Enter another number: "))
+        sub1 = float(input("Enter a number: "))
+        sub2 = float(input("Enter another number: "))
         print("The subtraction of the two numbers are:", sub1 - sub2)
     elif task == "3":
-        mul1 = int(input("Enter a number: "))
-        mul2 = int(input("Enter another number: "))
+        mul1 = float(input("Enter a number: "))
+        mul2 = float(input("Enter another number: "))
         print("The multiplication of the two numbers are:", mul1 * mul2)
     elif task == "4":
-        div1 = int(input("Enter a number: "))
-        div2 = int(input("Enter another number: "))
+        div1 = float(input("Enter a number: "))
+        div2 = float(input("Enter another number: "))
         print("The division of the two numbers are:", div1 / div2)
     else:
         print("╔===============╗")
